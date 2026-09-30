@@ -1,0 +1,45 @@
+# Open Source Contributor Engine Configuration
+
+# Target repositories to scan for contributions
+repositories:
+  - name: "qdrant/fastembed"
+    category: "Embedding & Vector Search"
+    priority: "high"
+  - name: "qdrant/qdrant-client"
+    category: "Vector Database SDK"
+    priority: "high"
+  - name: "chroma-core/chroma"
+    category: "Vector Database"
+    priority: "high"
+  - name: "run-llama/llama_index"
+    category: "RAG Framework"
+    priority: "high"
+  - name: "BerriAI/litellm"
+    category: "LLM Gateway & Proxy"
+    priority: "high"
+  - name: "infiniflow/ragflow"
+    category: "Deep RAG Engine"
+    priority: "medium"
+  - name: "weaviate/weaviate-python-client"
+    category: "Vector Database SDK"
+    priority: "medium"
+  - name: "Arize-ai/phoenix"
+    category: "LLM Observability & Evals"
+    priority: "medium"
+  - name: "vllm-project/vllm"
+    category: "High-Throughput LLM Serving"
+    priority: "medium"
+  - name: "huggingface/accelerate"
+    category: "PyTorch & Distributed Training"
+    priority: "medium"
+
+# Issue labels to monitor
+target_labels:
+  - "good first issue"
+  - "help wanted"
+  - "bug"
+  - "documentation"
+
+# Sandboxing configuration
+sandbox_dir: ".sandboxes"
+user_handle: "MOHITPRADHAN35"
